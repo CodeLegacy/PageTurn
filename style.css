@@ -1,0 +1,136 @@
+h1{
+    margin-left: 2%;
+    color: darkcyan;
+    font-size: 65px;
+}
+body{
+    background-image: url(https://image.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8184.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+hr{
+    width: 371px;
+    margin-left: 38px;
+    margin-top: 13px;
+    height: 6px;
+    background-color: #3f51b5;
+    border: 0;
+}
+.note{
+        color:#62737d;
+        font-size: 5vh;
+        font-family: cursive;
+        margin-left: 26px;
+
+}
+.bookshelf{
+    width: 371px;
+    margin-left: 69%;
+    margin-top: 0.2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    height: 6px;
+    background-color: #583308;
+    border: 0;
+}
+.book {
+    display: flex;
+    margin-left: 70%;
+    width: 332px;
+    justify-content: space-evenly;
+}
+.book .b1{
+    background-image: url(https://news.artnet.com/app/news-upload/2014/08/2014-08-08-Harry-Potter-6-256x256.jpeg);
+    width: 80px;
+    height: 97px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    background-size:cover;
+    transition: transform 0.5s;
+}
+.book .b2{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/41I0Ek-mHXL._CR0,66,267,267_UX256.jpg);
+    width: 80px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    height: 97px;
+    background-size:cover;
+    transition: transform 0.5s;
+}
+
+.book .b3{
+    background-image: url(https://c-sf.smule.com/sf/s54/arr/6a/15/17b487b8-b855-4514-b439-24a607b9d77c.jpg);
+    width: 80px;
+    height: 97px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    background-size:cover;
+    transition: transform 0.5s;
+}
+#flipbook1{
+    display:none;
+    visibility: hidden;
+    overflow:hidden;
+    width:200px;
+    margin-top:-100px;
+    margin-left:137px;
+    transition:transform 2s;
+}
+
+#flipbook1 .page{
+    background:white;
+    -webkit-box-shadow: 0 4px 10px #666;
+    -moz-box-shadow: 0 4px 10px #666;
+    -ms-box-shadow: 0 4px 10px #666;
+    -o-box-shadow: 0 4px 10px #666;
+    box-shadow: 0 4px 10px #666;
+    border:2px solid black;
+    
+}
+#flipbook2 {
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    width: 200px;
+    margin-left:137px;
+    margin-top: -100px;
+    transition: transform 2s;
+}
+
+#flipbook2 .page {
+    background: white;
+    -webkit-box-shadow: 0 4px 10px #666;
+    -moz-box-shadow: 0 4px 10px #666;
+    -ms-box-shadow: 0 4px 10px #666;
+    -o-box-shadow: 0 4px 10px #666;
+    box-shadow: 0 4px 10px #666;
+    border: 2px solid black;
+
+}
+#flipbook3 {
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    width: 200px;
+    margin-left:137px;
+    margin-top: -100px;
+    transition: transform 2s;
+}
+
+#flipbook3 .page {
+    background: white;
+    -webkit-box-shadow: 0 4px 10px #666;
+    -moz-box-shadow: 0 4px 10px #666;
+    -ms-box-shadow: 0 4px 10px #666;
+    -o-box-shadow: 0 4px 10px #666;
+    box-shadow: 0 4px 10px #666;
+    border: 2px solid black;
+
+}
+
+
+.book .b1:hover{
+    transform: scale(1.2);
+}
+.book .b2:hover {
+    transform: scale(1.2);
+}
+.book .b3:hover {
+    transform: scale(1.2);
+}
